@@ -1,5 +1,6 @@
 {
   "name": "simple-calculator",
+  "homepage": "https://anatoli-paliukhovich.github.io/simple-calculator/build",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
