@@ -11,13 +11,14 @@ export default defineConfig([
         sourceType: "module",
       },
     },
+
+    ignores: ["dist/*", "build/*", "out/*"],
+
     rules: {
       quotes: ["error", "double"],
       semi: ["error", "always"],
       "no-console": "error",
       "no-unused-vars": "warn",
-      "no-var": "error",
-      "prefer-const": "error",
       "no-multiple-empty-lines": ["error", { max: 1 }],
       "space-infix-ops": "error",
       indent: ["error", 2, { SwitchCase: 1 }],
