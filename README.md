@@ -48,5 +48,17 @@ $ npm run deploy
 
 ---
 
+### The structure of folders
+* .husky: pre-commit hook
+* build: bundle of the project with two files index.html and main.js
+* node_modules: dependencies
+* src:
+  - css: style.css
+  - utilsJs:
+    + converters.js (contains functions that convert the input)
+    + handlers.js (contains function for math operations and handlers for buttons)
+    + operators.js (contains operators)
+    + theme.js (contains logic for changing themes)
+  - index.js (the main js file)
 
 © [Anatoli Paliukhovich](https://github.com/Anatoli-Paliukhovich)
