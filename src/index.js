@@ -25,7 +25,10 @@ export const combineCalc = (equation) => {
   const result = estimateNotation(notation);
   return result;
 };
-
+const test = () => {
+  return 1 + 2;
+};
+test();
 calcBody.addEventListener("click", function (event) {
   const target = event.target;
 
